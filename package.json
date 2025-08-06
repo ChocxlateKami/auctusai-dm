@@ -1,0 +1,13 @@
+{
+  "name": "auctusai-dm",
+  "version": "1.0.0",
+  "description": "Instagram DM automation for Australian businesses",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "axios": "^1.0.0"
+  }
+}
