@@ -30,6 +30,11 @@ app.get('/auth/callback', (req, res) => {
   res.send('Instagram authentication successful');
 });
 
+app.get('/deauth', (req, res) => {
+  console.log('Deauth route hit');
+  res.send('Deauthorization endpoint reached');
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`AuctusAI DM server running on port ${PORT}`);
